@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="Avik's Portfolio", page_icon="🧑‍💻", layout="wide")
 
 # Load profile image
-profile_image = Image.open("C:/Users/u1100168/OneDrive - IQVIA/Documents/Advanced_Analytics/PortfolioWebsite/prof1.jpeg")
+profile_image = Image.open("images/prof1.jpeg")
 
 # --- Sidebar Contact Info with Logos ---
 with st.sidebar:
